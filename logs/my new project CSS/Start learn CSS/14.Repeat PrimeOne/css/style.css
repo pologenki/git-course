@@ -38,111 +38,88 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 
-body{
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+.headert-topp-item__language:hover{
+background-color: black;
+color: white;
+
 }
+
+.header-top__link {
+}
+
+
+.header-top-link__text {
+    font-family:'Akzidenz-Grotesk BQ Condensed';
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 
 .wrapper {
 min-height: 100%;
-display: flex;
-flex-direction: column;
-
-
 }
-
-
-
-.content {
-flex: 1 1 auto;
-
-}
-
-
-
-
-.hi {
-padding:50px 0 50px 0 ;
-background-color: #445162;
-}
-
 
 
 .container {
+max-width: 870px;
+min-height: 100%;
+border: 2px solid red;
 margin: 0 auto;
-max-width:1180px ;
-
 }
 
 
-.hi__row {
+
+.header-top {
 display: flex;
 justify-content: space-between;
+margin: 30px 0 0 0;
 }
 
 
-.hi__img {
-order: 2;
-margin: 8px 0 0 0;
-}
 
+.header-top__language {
 
-.hi__body {
-order: 1;
-color: #ffffff;
-}
-
-
-.hi__title {
-	font-size: 60px;
-	line-height: 1.2;
-	font-weight: 400;
-	margin: 0 0px 40px 0  ;
-
-}
-
-
-.hi__text {
-	
-	font-size: 20px;
-	line-height: 36px;
-	font-weight: 400;
-
-}
-
-
-.hi__ul {
-}
-
-
-.fa-check {
-padding: 0 10px 0 0px;
 
 }
 
 
 
-
-
-.Footer {
-background-color: #f5f5f5;
-
-}
-
-
-.Footer__row {
-display: flex;
-justify-content: center;
-}
-
-
-
-.footer__text {
-height:65px ;
-text-align: center;
-padding: 20px 0 0 0 ;
+.header-top__lng {
+margin: 0 10px 0 0;
+font-family: 'Bebas Neue';
 font-size: 12px;
-line-height: 24px;
-letter-spacing: 0.025em;
-color: #445162;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
 
 }
+
+
+.header-top__lng:hover{
+	background-color: black;
+	color: white;
+}
+
+.header-top__link {
+font-family:'Akzidenz-Grotesk BQ Condensed';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+color: #000000;
+
+}
+
+.header-top__link:hover{
+	text-decoration: underline;
+
+}
+
+
+
+
