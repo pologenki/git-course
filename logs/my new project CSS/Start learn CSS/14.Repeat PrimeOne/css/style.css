@@ -38,88 +38,121 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 
-
-.headert-topp-item__language:hover{
-background-color: black;
-color: white;
-
-}
-
-.header-top__link {
-}
-
-
-.header-top-link__text {
-    font-family:'Akzidenz-Grotesk BQ Condensed';
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-
 .wrapper {
-min-height: 100%;
 }
 
 
 .container {
 max-width: 870px;
-min-height: 100%;
-border: 2px solid red;
 margin: 0 auto;
-}
 
+}
 
 
 .header-top {
 display: flex;
 justify-content: space-between;
-margin: 30px 0 0 0;
+margin: 34px 0 -22px -15px;
+
 }
 
 
 
 .header-top__language {
-
-
-}
-
-
-
-.header-top__lng {
-margin: 0 10px 0 0;
-font-family: 'Bebas Neue';
-font-size: 12px;
-line-height: 25px;
-font-weight: 400;
-text-transform: uppercase;
-letter-spacing: 0.1em;
+display: flex;
 
 }
 
 
-.header-top__lng:hover{
+
+.header-top__lng a {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	color: #000000;
+	margin: 0 0 0 15px;
+}
+
+
+.header-top__lng a:hover{
 	background-color: black;
 	color: white;
 }
 
-.header-top__link {
-font-family:'Akzidenz-Grotesk BQ Condensed';
-font-size: 15px;
-line-height: 25px;
-font-weight: 400;
-text-transform: uppercase;
-color: #000000;
 
+
+.header-top__link {
+	font-family:'Akzidenz-Grotesk BQ Condensed';
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 .header-top__link:hover{
 	text-decoration: underline;
-
 }
 
 
 
+.header-bot {
+display: flex;
+align-items: center;
 
+}
+
+
+.header-bot__column {
+flex: 0 0 33.333%;
+
+}
+
+
+.header-bot__menu {
+
+
+}
+
+
+.header-bot__list {
+display: flex;
+justify-content: space-between;
+
+}
+
+.header-bot__link {
+	font-family:'Akzidenz-Grotesk BQ Condensed';
+	font-size: 15px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+
+
+.header-bot__logo {
+
+	
+	text-align: center;
+}
+
+.header-bot__text {
+
+ font-family: 'Bebas Neue', cursive;
+font-size: 10px;
+line-height: 25px;
+text-transform: uppercase;
+letter-spacing: 1.0em;
+color: #000000;
+letter-spacing: 0.80em;
+
+}
+.header-bot-logoImg {
+    
+    margin: 20px 0 20px 0 ;
+
+}
